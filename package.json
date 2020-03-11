@@ -1,0 +1,27 @@
+{
+  "name": "gatsby-attila-theme-starter",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "config": "git update-index --skip-worktree .ghost.json"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-ghost": "^1.0.0",
+    "eslint-plugin-react": "^7.19.0",
+    "gatsby": "^2.19.32",
+    "gh-pages": "^2.2.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "dependencies": {
+    "gatsby": "^2.19.32",
+    "@armada-inc/gatsby-theme-ghost-attila": "^1.0.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
