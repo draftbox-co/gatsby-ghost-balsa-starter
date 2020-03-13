@@ -42,6 +42,34 @@ Turn your Ghost blog into a lightning fast static website. This Gatsby theme is 
     ```
     and visit your site at `http://localhost:8000`.
 
+
+## 🧐 What's inside?
+
+A quick look at the top-level files and directories you'll see in a Gatsby project.
+
+    .
+    ├── node_modules
+    ├── static
+    ├── .gitignore
+    ├── gatsby-config.js
+    ├── yarn.lock
+    ├── package.json
+    └── README.md
+
+1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+
+2.  **`/static`**: This directory will contain all of the static files required by theme such as `favicon`, `logo` and `robot.txt`.
+
+3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+
+4.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+
+5. **`yarn.lock`** (See `yarn.lock` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+
+6. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+
+7. **`README.md`**: A text file containing useful reference information about your project.
+
 ## Configure
 
 ```js
