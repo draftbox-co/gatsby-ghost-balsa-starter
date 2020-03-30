@@ -26,6 +26,6 @@
     "gatsby-plugin-disqus": "^1.1.4",
     "gatsby-plugin-mailchimp": "^5.1.2",
     "gatsby-plugin-segment-js": "^3.1.0",
-    "gatsby-plugin-statickit": "^1.1.1",
+    "gatsby-plugin-statickit": "^1.1.1"
   }
 }
