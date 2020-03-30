@@ -22,6 +22,7 @@
     "gatsby": "^2.19.32",
     "@armada-inc/gatsby-theme-ghost-attila": "^1.0.1",
     "react": "^16.13.0",
+    "@statickit/react": "^2.1.0",
     "react-dom": "^16.13.0",
     "gatsby-plugin-disqus": "^1.1.4",
     "gatsby-plugin-mailchimp": "^5.1.2",
