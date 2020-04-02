@@ -12,10 +12,10 @@
     minimatch "^3.0.4"
     react "^16.6.1"
 
-"@armada-inc/gatsby-theme-ghost-attila@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@armada-inc/gatsby-theme-ghost-attila/-/gatsby-theme-ghost-attila-1.0.4.tgz#87ace6db88a27f080d62696cbde92fe04ddd582e"
-  integrity sha512-woxCX68lcdj/kKGzQ++Lgb7y1EttSj7nQKyG3CbiWd0ZUuAaRwbWEcueZcE2aHI09TZzwIrWHd5S3e3jDKpvmQ==
+"@armada-inc/gatsby-theme-ghost-attila@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@armada-inc/gatsby-theme-ghost-attila/-/gatsby-theme-ghost-attila-1.0.6.tgz#410c8ff9d5eb703f01110d1f3f8eb68c6dc55748"
+  integrity sha512-7K1ES4iHHI2ycvGAtl8Pqkukr5fbxu0fUAiCuJ/BvVjbgkBmH0ubmvhYYb4zWVctqE3dpC0OKNYQV0jkXdDisg==
   dependencies:
     "@armada-inc/gatsby-plugin-amp" "^0.2.3"
     "@tryghost/helpers" "^1.1.22"
@@ -26,6 +26,7 @@
     babel-preset-gatsby "^0.2.29"
     cheerio "^1.0.0-rc.3"
     cssnano "^4.1.10"
+    disqus-react "^1.0.8"
     gatsby-awesome-pagination "^0.3.5"
     gatsby-background-image "^0.10.2"
     gatsby-image "^2.2.41"
@@ -4579,6 +4580,11 @@ dir-glob@^3.0.1:
   integrity sha512-WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==
   dependencies:
     path-type "^4.0.0"
+
+disqus-react@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/disqus-react/-/disqus-react-1.0.8.tgz#df3999e7dd107a24ea0862c4f592e05ab7d8bdb5"
+  integrity sha512-fkDL6XVGteaxTwz8aN+n89iyMv1BPKKKO3v8YJCcNaJfhoKY/f6MSiqMqu1rNrbAkyxQ2VjF7C/2mPpPAElozg==
 
 dns-equal@^1.0.0:
   version "1.0.0"
