@@ -74,3 +74,9 @@ typings/
 public
 yarn-error.log
 .netlify/
+<<<<<<< HEAD
+
+
+.env.*
+=======
+>>>>>>> 5aabed8b04b189bc6e3111659d05be52c964befd
