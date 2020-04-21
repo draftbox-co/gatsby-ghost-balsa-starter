@@ -66,18 +66,14 @@ if(process.env.GA) {
   });
 }
 
-// if(process.env.GA) {
-//   gatsbyPlugins.push({
-//     resolve: `gatsby-plugin-google-analytics`,
-//     options: {
-//       trackingId: process.env.GA,
-//       head: false,
-//       pageTransitionDelay: 0,
-//       sampleRate: 5,
-//       siteSpeedSampleRate: 10
-//     }
-//   });
-// }
+gatsbyPlugins.push({
+  resolve: 'gatsby-plugin-robots-txt',
+  options: {
+    host: siteConfig.siteUrl,
+    sitemap: `${siteConfig.siteUrl}/sitemap.xml`,
+    policy: [{ userAgent: '*', disallow: ['/'] }]
+  }
+})
 
 module.exports = {
   plugins: gatsbyPlugins
