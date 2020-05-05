@@ -1,8 +1,8 @@
-# gatsby-starter-try-ghost 
+# gatsby-ghost-balsa-starter 
 
 A Gatsby starter for creating blogs from headless Ghost CMS. 
 
-Turn your Ghost blog into a lightning fast static website. This Gatsby theme is a front-end replacement of the Ghost Handlebars engine featuring the standard Ghost Casper skin and functionality. All content is sourced from a headless Ghost CMS.
+Turn your Ghost blog into a lightning fast static website. This Gatsby theme is a front-end replacement of the Ghost Handlebars engine featuring the Balsa skin and functionality. All content is sourced from a headless Ghost CMS.
 
 
 ## Demo
@@ -15,7 +15,7 @@ Turn your Ghost blog into a lightning fast static website. This Gatsby theme is 
 
 ## Features
 
-- Ghost Casper skin and functionality
+- Balsa Skin by Draftbox
 - SEO optimized
 - Fully responsive
 - Composable and extensible
