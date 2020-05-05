@@ -7,7 +7,7 @@ Turn your Ghost blog into a lightning fast static website. This Gatsby theme is 
 
 ## Demo
 
->Play with the [Demo](https://gatsby-attila.netlify.com/) to get a first impression.
+>Play with the [Demo](https://gatsby-ghost-balsa-starter.now.sh/) to get a first impression.
 
 
 &nbsp;
@@ -26,7 +26,7 @@ Turn your Ghost blog into a lightning fast static website. This Gatsby theme is 
 1. Install this starter by running
 
     ```bash
-    gatsby new try-ghost https://github.com/armada-inc/gatsby-attila-theme-starter
+    gatsby new try-ghost https://github.com/draftbox-co/gatsby-ghost-balsa-starter
     ```
 
 2. Change directory
@@ -129,4 +129,4 @@ You can disable the default Ghost Handlebars theme front-end by enabling the `Ma
 
 # Copyright & License
 
-Copyright (c) 2020 Armada Intelligence Inc - Released under the [MIT license](LICENSE).
+Copyright (c) 2020 Draftbox - Released under the [MIT license](LICENSE).
