@@ -1,13 +1,16 @@
+[![Draftbox](https://res.cloudinary.com/thinkcdnimages/image/upload/v1589291053/Draftbox/draftbox-for-github.svg)](https://draftbox.co)
+
 # gatsby-ghost-balsa-starter 
 
 A Gatsby starter for creating blogs from headless Ghost CMS. 
 
 Turn your Ghost blog into a lightning fast static website. This Gatsby theme is a front-end replacement of the Ghost Handlebars engine featuring the Balsa skin and functionality. All content is sourced from a headless Ghost CMS.
 
+> This starter is being used at [Draftbox](https://draftbox.co). Get lightning fast, secure front-end for your WordPress or Ghost blog, in 5 minutes or less, without coding. For our fellow devs, we also provide code export feature.
 
 ## Demo
 
->Play with the [Demo](https://gatsby-ghost-balsa-starter.now.sh/) to get a first impression.
+>Play with the [Demo](https://ghost-balsa.draftbox.co/) to get a first impression.
 
 
 &nbsp;
@@ -15,9 +18,20 @@ Turn your Ghost blog into a lightning fast static website. This Gatsby theme is 
 
 ## Features
 
-- Balsa Skin by Draftbox
+- Balsa Skin from Draftbox
 - SEO optimized
 - Fully responsive
+- Gatsby images
+- Styled 404 page
+- RSS Feed
+- AMP Pages
+- Sitemap
+- Contact Form
+- Subscribe Form
+- Social Sharing
+- Google Analytics Integration
+- Segment Integration
+- Disqus Integration
 - Composable and extensible
 
 
@@ -127,6 +141,16 @@ After completion of the build process your static site can be found in the `publ
 You can disable the default Ghost Handlebars theme front-end by enabling the `Make this site private` flag within your Ghost settings. This enables password protection in front of the Ghost install and sets `<meta name="robots" content="noindex" />` so your Gatsby front-end becomes the source of truth for SEO.
 
 
+## Authors
+- Arun Priyadarshi ([@Gunnerforlife](https://github.com/Gunnerforlife)) – [Draftbox](https://draftbox.co)
+- Keyur Raval ([@thandaanda](https://github.com/thandaanda)) – [Draftbox](https://draftbox.co)
+- Shyam Lohar ([@shyamlohar](https://github.com/shyamlohar)) – [Draftbox](https://draftbox.co)
+- Tanmay Desai ([@tanmaydesai89](https://github.com/tanmaydesai89)) – [Draftbox](https://draftbox.co)
+
+## Contributions
+PRs are welcome! Consider contributing to this project if you are missing feature that is also useful for others.
+
 # Copyright & License
 
-Copyright (c) 2020 Draftbox - Released under the [MIT license](LICENSE).
+Copyright (c) 2020 [Draftbox](https://draftbox.co) - Released under the [MIT license](LICENSE).
+
