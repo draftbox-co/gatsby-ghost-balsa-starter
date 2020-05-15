@@ -10,7 +10,7 @@ Turn your Ghost blog into a lightning fast static website. This Gatsby theme is 
 
 ## Demo
 
->Play with the [Demo](https://ghost-balsa.draftbox.co/) to get a first impression.
+>Play with the [Demo](https://ghost-balsa-preview.draftbox.co/) to get a first impression.
 
 
 &nbsp;
