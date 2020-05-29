@@ -989,10 +989,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@draftbox-co/gatsby-ghost-balsa-theme@^1.0.17":
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-balsa-theme/-/gatsby-ghost-balsa-theme-1.0.17.tgz#c1f7d396a983ad23fedc96067a1c60f016c8b5bc"
-  integrity sha512-5Gvj9+1lyIw0mKd2VNyTBjHJszXeZd3FjgWWFRlTUGMnPsUAtgRTx7nYmXczceu2vAdNughs3exG5F0EsLacXA==
+"@draftbox-co/gatsby-ghost-balsa-theme@^1.0.18":
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-balsa-theme/-/gatsby-ghost-balsa-theme-1.0.18.tgz#c5614fc605f693727da10b4b9e6fda5e176a60ee"
+  integrity sha512-M9s3/D6uLo0/biMYYz9XmJh61G0TxvphnBRsbmtdjbGvE05T2NYun439nvvb9keBdPDEXsVdhXR03K1vfbnhQQ==
   dependencies:
     "@armada-inc/gatsby-plugin-amp" "^0.2.3"
     "@draftbox-co/gatsby-plugin-webfonts" "^1.1.3"
