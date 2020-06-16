@@ -31,9 +31,6 @@ try {
   if (!apiUrl || !contentApiKey || contentApiKey.match(/<key>/)) {
     ghostConfig = null; //allow default config to take over
   }
-  if (siteConfig) {
-    siteConfig.apiUrl = apiUrl ? apiUrl : "";
-  }
 }
 
 
