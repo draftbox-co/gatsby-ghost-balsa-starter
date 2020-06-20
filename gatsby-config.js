@@ -1,10 +1,3 @@
-// loading env
-const activeEnv = process.env.NODE_ENV || 'development'
-console.log(`Using environment config: '${activeEnv}'`)
-require("dotenv").config({
-  path: `.env.${activeEnv}`,
-})
-
 let siteConfig;
 let ghostConfig;
 
@@ -135,8 +128,6 @@ if (process.env.GATSBY_OLARK_ID) {
   });
 }
 
-
-console.log(JSON.stringify(gatsbyPlugins, null, 2));
 module.exports = {
   plugins: gatsbyPlugins
 };

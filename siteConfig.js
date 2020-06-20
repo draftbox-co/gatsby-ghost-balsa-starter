@@ -24,7 +24,7 @@ module.exports = {
     ],
   },
   footer: {
-    copyright: "Built with Draftbox122",
+    copyright: "Built with Draftbox",
     navigation: [
       {
         label: "Home",
@@ -49,7 +49,7 @@ module.exports = {
     ],
   },
   subscribeWidget: {
-    title: "Subscribe to Draftbox [new]",
+    title: "Subscribe to Built with Draftbox",
     helpText: "Get the latest posts delivered right to your inbox.",
     successMessage: "Thanks for subscribing to Built with Draftbox.",
   },
