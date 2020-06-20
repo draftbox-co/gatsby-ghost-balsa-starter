@@ -36,7 +36,7 @@ module.exports = {
       },
       {
         label: "RSS",
-        url: "https://ghost-balsa-preview.draftbox.co/rss",
+        url: "https://ghost-balsa-preview.draftbox.co/rss.xml",
       },
       {
         label: "Contact",
