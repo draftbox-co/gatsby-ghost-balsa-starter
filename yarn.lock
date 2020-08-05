@@ -1815,9 +1815,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@draftbox-co/gatsby-ghost-balsa-theme@https://github.com/draftbox-co/gatsby-ghost-balsa-theme/archive/draftbox-co-gatsby-ghost-balsa-theme-v1.0.47-alpha-2-gitpkg.tar.gz":
-  version "1.0.47-alpha-2"
-  resolved "https://github.com/draftbox-co/gatsby-ghost-balsa-theme/archive/draftbox-co-gatsby-ghost-balsa-theme-v1.0.47-alpha-2-gitpkg.tar.gz#03ffcbf340443f8026a03141a78382895995f78d"
+"@draftbox-co/gatsby-ghost-balsa-theme@1.0.48":
+  version "1.0.48"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-balsa-theme/-/gatsby-ghost-balsa-theme-1.0.48.tgz#a737d7bca58796afbdf43dd2e5f8ebf9888bccdf"
+  integrity sha512-M0bfIHh46PJgRb4X+wwtCwkIYAFP9nC6DOgvJUpTvZXKE7Z7XPhAS9Y7FWRI7rEqAGLWUWuMNh4XjTxGS3E6PQ==
   dependencies:
     "@draftbox-co/gatsby-plugin-amp" "^0.2.4"
     "@draftbox-co/gatsby-plugin-css-variables" "^0.0.3"

@@ -20,7 +20,7 @@
     "react-dom": "^16.13.0"
   },
   "dependencies": {
-    "@draftbox-co/gatsby-ghost-balsa-theme": "https://github.com/draftbox-co/gatsby-ghost-balsa-theme/archive/draftbox-co-gatsby-ghost-balsa-theme-v1.0.47-alpha-2-gitpkg.tar.gz",
+    "@draftbox-co/gatsby-ghost-balsa-theme": "1.0.48",
     "@draftbox-co/gatsby-plugin-crisp-chat-lazy": "^0.0.3",
     "@draftbox-co/gatsby-plugin-hotjar-lazy": "^0.0.1",
     "@draftbox-co/gatsby-plugin-olark-lazy": "^0.0.1",
