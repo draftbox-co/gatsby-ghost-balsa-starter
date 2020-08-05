@@ -1815,12 +1815,13 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@draftbox-co/gatsby-ghost-balsa-theme@1.0.47":
-  version "1.0.47"
-  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-balsa-theme/-/gatsby-ghost-balsa-theme-1.0.47.tgz#ff750967a5c7ce0dad1e6025cfeaf857c9227f12"
-  integrity sha512-yh9l6w+KxFdq3SNKYf8/Z2Q24e2Q6H5jpLYb/pDMljRlNDsZpPoUUYVqIJLCrpO3BzUZHv6qrNo+wR56+8LGpQ==
+"@draftbox-co/gatsby-ghost-balsa-theme@1.0.48":
+  version "1.0.48"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-ghost-balsa-theme/-/gatsby-ghost-balsa-theme-1.0.48.tgz#a737d7bca58796afbdf43dd2e5f8ebf9888bccdf"
+  integrity sha512-M0bfIHh46PJgRb4X+wwtCwkIYAFP9nC6DOgvJUpTvZXKE7Z7XPhAS9Y7FWRI7rEqAGLWUWuMNh4XjTxGS3E6PQ==
   dependencies:
     "@draftbox-co/gatsby-plugin-amp" "^0.2.4"
+    "@draftbox-co/gatsby-plugin-css-variables" "^0.0.3"
     "@draftbox-co/gatsby-plugin-webfonts" "^1.1.3"
     "@tryghost/helpers" "^1.1.22"
     "@tryghost/url-utils" "^0.6.13"
@@ -1876,6 +1877,13 @@
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-plugin-crisp-chat-lazy/-/gatsby-plugin-crisp-chat-lazy-0.0.3.tgz#a0104d235bb88e8cdd97213fe6afc398561616d9"
   integrity sha512-wbKXmHHIwd8Kwe05ARwAC+cUfauJrD5Jvt9RdgPmZbAFGhhnE7bsRam7Ti5Kc/RBbT82mmJUb4cGmBIDXPI7sA==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+
+"@draftbox-co/gatsby-plugin-css-variables@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-plugin-css-variables/-/gatsby-plugin-css-variables-0.0.3.tgz#90baf9d83509bf5fe405b94e5a21455b5e916b8d"
+  integrity sha512-6dg9hLUKaXWOLnBTZSRxBYxks3GAlFOSCp/3BrPl7RBPWk74ybcrAmNptCe2MbZHi8wUCaAhgaOH/8Jito7P0Q==
   dependencies:
     "@babel/runtime" "^7.10.5"
 

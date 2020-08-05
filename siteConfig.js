@@ -49,6 +49,7 @@ module.exports = {
     ],
   },
   subscribeWidget: {
+    visible: true,
     title: "Subscribe to Built with Draftbox",
     helpText: "Get the latest posts delivered right to your inbox.",
     successMessage: "Thanks for subscribing to Built with Draftbox.",
@@ -59,6 +60,12 @@ module.exports = {
     instagram: "https://www.instagram.com/",
     linkedin: "https://linkedin.com",
     github: "https://github.com/draftbox-co",
+    pinterest: "",
+    youtube: "",
+    dribbble: "",
+    behance: "",
+    externalLink: "",
+    whatsapp: "",
   },
   contactWidget: {
     title: "Contact Built with Draftbox",
@@ -94,4 +101,66 @@ module.exports = {
     "https://ghost.theasdfghjkl.com/content/images/2020/05/draftbox-colored-icon.png",
   coverUrl: "cover.png",
   alternateLogoUrl: "alternateLogo.svg",
+  themeConfig: {
+    variables: [
+      {
+        varName: "--primary-color",
+        value: `#2b6cb0`,
+      },
+      {
+        varName: "--primary-color-active",
+        value: `#2a4365`,
+      },
+      {
+        varName: "--primary-color-light",
+        value: `#bee3f8`,
+      },
+      {
+        varName: "--sans-font",
+        value: `"Montserrat"`,
+      },
+      {
+        varName: "--sans-font-normal",
+        value: `400`,
+      },
+      {
+        varName: "--sans-font-medium",
+        value: `500`,
+      },
+      {
+        varName: "--sans-font-semibold",
+        value: `600`,
+      },
+      {
+        varName: "--sans-font-bold",
+        value: `700`,
+      },
+      {
+        varName: "--serif-font",
+        value: `Merriweather`,
+      },
+      { varName: "--serif-font-light", value: `300` },
+      { varName: "--serif-font-normal", value: `400` },
+      { varName: "--serif-font-medium", value: `400` },
+      { varName: "--serif-font-bold", value: `700` },
+    ],
+    fonts: [
+      {
+        family: "Montserrat",
+        variants: ["400", "500", "600", "700"],
+        //subsets: ['latin']
+        //text: 'Hello'
+        fontDisplay: "swap",
+        strategy: "selfHosted", // 'base64' || 'cdn'
+      },
+      {
+        family: "Merriweather",
+        variants: ["300", "400", "700"],
+        //subsets: ['latin']
+        //text: 'Hello'
+        fontDisplay: "swap",
+        strategy: "selfHosted", // 'base64' || 'cdn'
+      },
+    ],
+  },
 };
