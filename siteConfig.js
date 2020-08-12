@@ -99,25 +99,25 @@ module.exports = {
   logoUrl: "logo.svg",
   iconUrl:
     "https://ghost.theasdfghjkl.com/content/images/2020/05/draftbox-colored-icon.png",
-  coverUrl: "cover.png",
+  coverUrl: "cover.jpg",
   alternateLogoUrl: "alternateLogo.svg",
   themeConfig: {
     variables: [
       {
         varName: "--primary-color",
-        value: `#2b6cb0`,
+        value: `#6f42c1`,
       },
       {
         varName: "--primary-color-active",
-        value: `#2a4365`,
+        value: `#4b2d83`,
       },
       {
         varName: "--primary-color-light",
-        value: `#bee3f8`,
+        value: `#b49ddf`,
       },
       {
         varName: "--sans-font",
-        value: `"Montserrat"`,
+        value: `"Inter"`,
       },
       {
         varName: "--sans-font-normal",
@@ -137,16 +137,17 @@ module.exports = {
       },
       {
         varName: "--serif-font",
-        value: `Merriweather`,
+        value: `Lora`,
       },
-      { varName: "--serif-font-light", value: `300` },
+      { varName: "--serif-font-light", value: `400` },
       { varName: "--serif-font-normal", value: `400` },
-      { varName: "--serif-font-medium", value: `400` },
+      { varName: "--serif-font-semibold", value: `600` },
       { varName: "--serif-font-bold", value: `700` },
+      { varName: "--serif-font-extrabold", value: `700` },
     ],
     fonts: [
       {
-        family: "Montserrat",
+        family: "Inter",
         variants: ["400", "500", "600", "700"],
         //subsets: ['latin']
         //text: 'Hello'
@@ -154,8 +155,8 @@ module.exports = {
         strategy: "selfHosted", // 'base64' || 'cdn'
       },
       {
-        family: "Merriweather",
-        variants: ["300", "400", "700"],
+        family: "Lora",
+        variants: [ "400", "500", "600", "700"],
         //subsets: ['latin']
         //text: 'Hello'
         fontDisplay: "swap",
